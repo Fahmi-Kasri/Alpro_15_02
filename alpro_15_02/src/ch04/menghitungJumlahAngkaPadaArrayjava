@@ -1,0 +1,17 @@
+
+import java.util.Scanner;
+
+
+public class menghitungJumlahAngkaPadaArray {
+    public static void main(String[] args) {
+        Scanner justin = new Scanner(System.in);
+        int angka, count=0;
+        System.out.println("Masukkan angka :");
+        angka = justin.nextInt();
+        while(angka >0){
+            
+            angka=angka/10;
+            count++;
+        }
+    }
+}

@@ -1,0 +1,17 @@
+
+public class AngkaKelipatan3 {
+    public static void main(String[] args) {
+        int[] kelipatan3 = new int[12];
+        int index = 0;
+        int nomor =1;
+        
+        for(int i=1; i<=82; i++){
+            if(i%3==0){
+            kelipatan3[index]=i;
+                System.out.println(" "+kelipatan3[index]);
+                nomor++;
+                index++;
+            }
+        }
+    }
+}
