@@ -1,3 +1,5 @@
+package ch05;
+
 class LIS { 
 	static int max_ref; // stores the LIS 
 	static int _lis(int arr[], int n){ 
