@@ -1,3 +1,6 @@
+package ch05;
+
+
 import java.util.Scanner;
 public class lagoritmakadane
 {   public int maxSequenceSum(int[] arr)
