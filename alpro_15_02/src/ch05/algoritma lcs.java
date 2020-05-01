@@ -1,3 +1,5 @@
+package ch05;
+
 public class lcs { 
     int lcs(char[] X, char[] Y, int m, int n) 
     {  if (m == 0 || n == 0) 
